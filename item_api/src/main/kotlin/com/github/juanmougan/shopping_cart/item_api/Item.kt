@@ -9,5 +9,6 @@ data class Item(
     var id: UUID?,
     var name: String,
     var description: String,
-    var price: BigDecimal
+    var price: BigDecimal,
+    var barcode: String     // maybe?
 )
